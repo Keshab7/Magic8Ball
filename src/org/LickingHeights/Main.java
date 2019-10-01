@@ -9,8 +9,15 @@ public class Main {
         Scanner keyboard;
         int firstNumber;
         keyboard = new Scanner(System.in);
-	System.out.println("Pick a number 1-100");
-	firstNumber = keyboard.nextInt();
-    }
-    }
+        System.out.println("Pick a number 1-100");
+        firstNumber = keyboard.nextInt();
+        if (10 >= firstNumber && firstNumber >= 0) {
+            System.out.println("Maybe");
+        }
+        if (20 >= firstNumber && firstNumber > 10) {
+            System.out.println("Never");
+        }
+        if (30)
 
+    }
+}
