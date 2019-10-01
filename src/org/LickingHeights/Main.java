@@ -35,6 +35,8 @@ public class Main {
         if (80 >= firstNumber && firstNumber >70) {
             System.out.println("I Honestly Think It'll Go Down");
         }
-       
+        if (90 >= firstNumber && firstNumber >80) {
+            System.out.println("The Outcome Seems Likely");
+        }
     }
 }
