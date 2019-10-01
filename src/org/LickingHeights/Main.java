@@ -29,7 +29,8 @@ public class Main {
         if (60 >= firstNumber && firstNumber >50) {
             System.out.println("I Don't Even Know What That Means");
         }
-
+        if (70 >= firstNumber && firstNumber >60) {
+            System.out.println("I'm Busy Go Away!");
 
     }
 }
