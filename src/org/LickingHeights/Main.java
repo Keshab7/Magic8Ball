@@ -41,6 +41,8 @@ public class Main {
         if (100 >= firstNumber && firstNumber >90) {
             System.out.println("Absolutely Yes!");
         }
-       
+        else {
+            System.out.println("Are you dumb? I said 1-100. What is this?");
+        }
     }
 }
