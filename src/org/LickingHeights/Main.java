@@ -38,5 +38,9 @@ public class Main {
         if (90 >= firstNumber && firstNumber >80) {
             System.out.println("The Outcome Seems Likely");
         }
+        if (100 >= firstNumber && firstNumber >90) {
+            System.out.println("Absolutely Yes!");
+        }
+       
     }
 }
