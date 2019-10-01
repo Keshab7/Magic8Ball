@@ -19,6 +19,10 @@ public class Main {
         }
         if (30 >= firstNumber && firstNumber >20) {
             System.out.println("I Can See It Happening");
+        }
+        if (40 >= firstNumber && firstNumber >30) {
+            System.out.println("I Don't Think So");
+        }
        
 
     }
