@@ -26,7 +26,10 @@ public class Main {
         if (50 >= firstNumber && firstNumber >40) {
             System.out.println("Doesn't Look Too Good");
         }
-      
+        if (60 >= firstNumber && firstNumber >50) {
+            System.out.println("I Don't Even Know What That Means");
+        }
+
 
     }
 }
