@@ -17,7 +17,9 @@ public class Main {
         if (20 >= firstNumber && firstNumber > 10) {
             System.out.println("Never");
         }
-        if (30)
+        if (30 >= firstNumber && firstNumber >20) {
+            System.out.println("I Can See It Happening");
+       
 
     }
 }
