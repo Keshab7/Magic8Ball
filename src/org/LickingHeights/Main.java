@@ -23,7 +23,10 @@ public class Main {
         if (40 >= firstNumber && firstNumber >30) {
             System.out.println("I Don't Think So");
         }
-       
+        if (50 >= firstNumber && firstNumber >40) {
+            System.out.println("Doesn't Look Too Good");
+        }
+      
 
     }
 }
