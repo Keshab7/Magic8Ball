@@ -31,6 +31,10 @@ public class Main {
         }
         if (70 >= firstNumber && firstNumber >60) {
             System.out.println("I'm Busy Go Away!");
-
+        }
+        if (80 >= firstNumber && firstNumber >70) {
+            System.out.println("I Honestly Think It'll Go Down");
+        }
+       
     }
 }
