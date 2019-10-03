@@ -9,40 +9,41 @@ public class Main {
         Scanner keyboard;
         int firstNumber;
         keyboard = new Scanner(System.in);
+
+        
         System.out.println("Pick a number 1-100");
         firstNumber = keyboard.nextInt();
         if (10 >= firstNumber && firstNumber >= 0) {
             System.out.println("Maybe");
         }
-        if (20 >= firstNumber && firstNumber > 10) {
+        else if (20 >= firstNumber && firstNumber > 10) {
             System.out.println("Never");
         }
-        if (30 >= firstNumber && firstNumber >20) {
+        else if (30 >= firstNumber && firstNumber >20) {
             System.out.println("I Can See It Happening");
         }
-        if (40 >= firstNumber && firstNumber >30) {
+        else if (40 >= firstNumber && firstNumber >30) {
             System.out.println("I Don't Think So");
         }
-        if (50 >= firstNumber && firstNumber >40) {
+        else if (50 >= firstNumber && firstNumber >40) {
             System.out.println("Doesn't Look Too Good");
         }
-        if (60 >= firstNumber && firstNumber >50) {
+        else if (60 >= firstNumber && firstNumber >50) {
             System.out.println("I Don't Even Know What That Means");
         }
-        if (70 >= firstNumber && firstNumber >60) {
+        else if (70 >= firstNumber && firstNumber >60) {
             System.out.println("I'm Busy Go Away!");
         }
-        if (80 >= firstNumber && firstNumber >70) {
+        else if (80 >= firstNumber && firstNumber >70) {
             System.out.println("I Honestly Think It'll Go Down");
         }
-        if (90 >= firstNumber && firstNumber >80) {
+        else if (90 >= firstNumber && firstNumber >80) {
             System.out.println("The Outcome Seems Likely");
         }
-        if (100 >= firstNumber && firstNumber >90) {
+        else if (100 >= firstNumber && firstNumber >90) {
             System.out.println("Absolutely Yes!");
         }
-        else {
+        else
             System.out.println("Are you dumb? I said 1-100. What is this?");
-        }
     }
 }
