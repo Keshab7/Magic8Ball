@@ -10,8 +10,11 @@ public class Main {
         int firstNumber;
         keyboard = new Scanner(System.in);
 
-        
-        System.out.println("Pick a number 1-100");
+        System.out.println("Hello and Welcome To Your Personal Magic 8 Ball");
+        System.out.println("Go Ahead and Ask a Yes or No Question");
+        keyboard.nextLine();
+
+        System.out.println("Now Pick a number 1-100 to Find Your Outcome");
         firstNumber = keyboard.nextInt();
         if (10 >= firstNumber && firstNumber >= 0) {
             System.out.println("Maybe");
